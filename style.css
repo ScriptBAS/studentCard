@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+@media (max-width: 992px) {
+    * {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    * {
+        font-size: 14px;
+    }
+}
+
+
+body {
+    margin-top: 10px;
+    background-color: #eee;
+    color: #333;
+}
+
+body.dark {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #eee;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+
+h2 {
+    font-size: 26px;
+}
+
+@media (max-width: 992px) {
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 16px;
+    }
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #1b90bf;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.container {
+    margin-top: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 500px;
+    }
+}
+
+.theme-btn {
+    color: aqua;
+    font-size: 28px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: inherit;
+    text-shadow: -2px -2px 5px #333
+}
+
+.about {
+    border: 3px solid #aaa;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.foto {
+    display: inline-block;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 992px) {
+    .foto {
+        display: block;
+        max-height: 300px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .foto {
+        display: block;
+        max-height: 200px;
+    }
+}
+
+.foto img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.info {
+    font-size: 20px;
+    padding-left: 10px;
+    display: inline-block;
+    width: 68%;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+@media (max-width: 992px) {
+    .info {
+        display: block;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .info {
+        display: block;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.info__item {
+    padding-bottom: 10px;
+}
+
+.info__item:last-child {
+    padding-bottom: 0px;
+}
+
+.info__item__header {
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+.city {
+    position: relative;
+    width: 100%;
+    min-height: 150px;
+    background-image: url(https://i.postimg.cc/Ss9PcHLj/IMG-9722-3.jpg);
+    background-position: top;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+    .city {
+        min-height: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .city {
+        min-height: 60px;
+    }
+}
+
+.city__name {
+    font-family: serif;
+    position: absolute;
+    left: 15px;
+    top: 40%;
+    color: #fff;
+    font-size: 30px;
+    font-style: italic;
+    text-shadow: 3px 3px 5px #000;
+}
+
+.infoblock {
+    position: relative;
+    text-align: center;
+    border: 3px solid #aaa;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.infoblock__header {
+    margin-bottom: 10px;
+}
+
+.infoblock table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.infoblock__lessons table td:nth-child(1){
+    text-align: left;
+    padding-left: 120px;
+}
+
+@media (max-width: 992px) {
+    .infoblock__lessons table td:nth-child(1) {
+        padding-left: 80px;
+    }
+}
+
+@media (max-width: 767px) {
+    .infoblock__lessons table td:nth-child(1) {
+        padding-left: 20px;
+    }
+}
+
+
+.infoblock td {
+    width: 50%;
+    padding-bottom: 5px;
+}
+
+.infoblock__list li {
+    list-style: none;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.infoblock__list li::before {
+    content: '\2752';
+    font-size: 20px;
+}
+
+.cources th {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #aaa;
+}
+
+.cources td {
+    width: 33%;
+}
+
+.contact__socials {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact__item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.contact__item__icon img{
+    width: 40%;
+}
+
+
