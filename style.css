@@ -109,7 +109,8 @@ table {
     right: 5px;
     top: 5px;
     color: inherit;
-    text-shadow: -2px -2px 5px #333
+    text-shadow: -2px -2px 5px #333;
+    cursor: pointer;
 }
 
 .about {
